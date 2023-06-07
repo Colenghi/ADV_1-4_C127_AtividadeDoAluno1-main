@@ -1,0 +1,70 @@
+body{
+    text-align: center;
+    background-image: linear-gradient(to right top,cadetblue,steelblue,darkturquoise,aquamarine,turquoise);
+    
+}
+.copy_right_footer
+{
+        position: fixed;
+        color: white;
+        bottom: 0;
+        width: 100%;
+        height: 5%;
+        background-color:grey;
+        line-height: 3;
+        text-align: right;
+        font-size: 12px;
+}
+h1{
+    font-family: 'Damion', cursive;
+    background-image: linear-gradient(to bottom, #ffdc2e,#ffe761,#ffea76);
+    border-radius: 6px;
+    height:46px;
+    text-align: center;
+}
+#snowsketch
+{
+    background-image: linear-gradient(to bottom, #ec9006,#ee9f27,#f1b04c    );
+    border-radius: 8px;
+    float:right;
+}
+#label
+{
+    font-family: 'Grand Hotel', cursive;
+    font-size: 30px;
+}
+#confidence
+{
+    font-family: 'Grand Hotel', cursive;
+    font-size: 30px;
+}
+canvas
+{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+    display: grid;
+    place-content: center;
+}
+ @keyframes example
+ {
+    from {box-shadow: 1px 1px 38px grey;}
+    to {box-shadow: 1px 1px 38px white;}
+ }
+ p
+ {
+    padding-top: 10px;
+ }
+ #btn
+ {
+    border-radius: 12px;
+    width: 10%;
+    height:5.5%;
+    font-family: 'Hurricane', cursive;
+    font-size: 25px;
+    background-image: linear-gradient(to bottom, #7dbd07,#589507,#396F04);
+    color: darkturquoise;
+ }
